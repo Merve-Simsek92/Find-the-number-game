@@ -8,19 +8,22 @@ let alert=document.querySelector(".alert");
 
 
 button.addEventListener("click",()=>{
-    if(number.value<0 && number.value>0){
+    if(number.value<0 && number.value>100){
         alert.innerText="Invalid Number"
     }else if(number.value<n){
         result.innerText+=" "+number.value
-        alert.innerText="the closest big guess to your number"
+        alert.innerText="Enter a Larger Number"
+        number.value="";
 
     }else if(number.value>n){
         result.innerText+=" "+number.value
-        alert.innerText="the lowest guess closest to your number"
+        alert.innerText="Enter a smaller number"
+        number.value="";
     }
     else if(number.value==n){
-        alert.innerText="you win"
+        alert.innerText="YOU WIN"
         result.innerText+=" "+number.value
+        number.value="";
 
         
     }

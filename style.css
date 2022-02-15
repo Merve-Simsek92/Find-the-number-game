@@ -2,10 +2,11 @@
     width: 100%;
     height: 100%;
     text-align: center;
+    margin-top: 100px;
 
 }
 body{
-    background-image: url("https://i.pinimg.com/originals/a4/d9/11/a4d911b9165ee2416ccfb5b9a51a0ae8.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3gOK0cbIGnt8I1M2Z_ExA0VTLZXBeoQwKOVTd5O9sJ8GMNea4-lfiLmNj-mBjvIv_Uw&usqp=CAU");
     background-size: cover;
 }
 .right{
@@ -15,4 +16,18 @@ body{
 #check{
     background-color: purple;
     color: aliceblue;
+    height: 30px;
+    border: none;
+    border-radius: 0.3rem;
+}
+#number{
+    height: 25px;
+}
+#result{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;      
+}  
+.alert{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
 }
